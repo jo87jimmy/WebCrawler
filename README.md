@@ -33,8 +33,12 @@ pip install -r requirements.txt
 ```bash
 python crawler.py
 ```
-
+```
+python download_mdn.py
+```
 ## 注意事項
 - 請確保網路連線正常。
 - 程式內建了 0.5 秒的請求間隔，以減輕對目標伺服器的負擔，這是一個良好的爬蟲習慣。
 - 下載的檔案將會直接存放在 `downloads` 資料夾中。
+
+##僅供學術研究使用，請勿用於商業用途。
